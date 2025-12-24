@@ -1,5 +1,4 @@
 # Here are the Admin Register 
-# For testing added one more line
 from django.contrib import admin
 from project.models import Project, Task
 from django.db.models import Prefetch
