@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from organization.models import Organization, OrganizationMember
-from flowforge_backend.account.api.serializers import UserSerializer
+from account.api.serializers import UserSerializer
 
 
 class OrganizationSerializer(serializers.ModelSerializer):

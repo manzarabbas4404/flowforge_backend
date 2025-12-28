@@ -28,4 +28,4 @@ RUN python manage.py collectstatic --noinput || true
 EXPOSE 8000
 
 # Run app with Gunicorn
-CMD ["gunicorn", "config.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "flowforge_backend.wsgi:application", "--bind", "0.0.0.0:8000"]
