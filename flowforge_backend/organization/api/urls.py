@@ -1,5 +1,5 @@
 from rest_framework.routers import DefaultRouter
-from flowforge_backend.organization.api.views import (
+from organization.api.views import (
     OrganizationViewSet,
     OrganizationMemberViewSet,
 )

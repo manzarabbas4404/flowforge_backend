@@ -7,7 +7,7 @@ from rest_framework.mixins import (
     UpdateModelMixin,
 )
 from rest_framework.viewsets import GenericViewSet
-from flowforge_backend.organization.api.serializers import (
+from organization.api.serializers import (
     OrganizationSerializer,
     OrganizationMemberSerializer,
 )

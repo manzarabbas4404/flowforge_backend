@@ -8,7 +8,7 @@ from rest_framework.mixins import (
 )
 from rest_framework.viewsets import GenericViewSet
 from project.models import Project, Task
-from flowforge_backend.project.api.serializers import ProjectSerializer, TaskSerializer
+from project.api.serializers import ProjectSerializer, TaskSerializer
 from project.filters import ProjectFilter
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import OrderingFilter, SearchFilter

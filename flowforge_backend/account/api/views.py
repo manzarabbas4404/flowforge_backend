@@ -7,7 +7,7 @@ from rest_framework.mixins import (
     UpdateModelMixin,
 )
 from rest_framework.viewsets import GenericViewSet
-from flowforge_backend.account.api.serializers import UserSerializer
+from account.api.serializers import UserSerializer
 from django.contrib.auth import get_user_model
 from rest_framework.pagination import PageNumberPagination
 from account.permissions import IsOrgMember, IsAdmin, IsOwner
