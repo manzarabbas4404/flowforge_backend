@@ -1,0 +1,13 @@
+name: FlowForge Deploy
+
+on:
+  workflow_dispatch:   # manual trigger (safe!)
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to Cloud (Placeholder)
+        run: |
+          echo "Pull Docker image and deploy to cloud here"
