@@ -5,7 +5,8 @@ services:
     build: .
     image: flowforge_backend_image
     container_name: flowforge_web
-    command: gunicorn config.wsgi:application --bind 0.0.0.0:8000
+    command: gunicorn flowforge_backend.wsgi:application --bind 0.0.0.0:8000
+
     volumes:
       - .:/app
     ports:
