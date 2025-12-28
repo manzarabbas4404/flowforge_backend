@@ -6,6 +6,8 @@ services:
     image: flowforge_backend_image
     container_name: flowforge_web
     command: gunicorn flowforge_backend.wsgi:application --bind 0.0.0.0:8000
+    environment:
+      DJANGO_SETTINGS_MODULE: flowforge_backend.settings.local
 
     volumes:
       - .:/app
