@@ -27,5 +27,5 @@ jobs:
           context: .
           push: true
           tags: |
-            manzar/flowforge-backend:latest
-            manzar/flowforge-backend:${{ github.sha }}
+            manzarabbas/flowforge-backend:latest
+            manzarabbas/flowforge-backend:${{ github.sha }}
